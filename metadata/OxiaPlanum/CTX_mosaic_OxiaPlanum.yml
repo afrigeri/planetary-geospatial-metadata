@@ -52,7 +52,7 @@ identification:
     extents:
         spatial:
             - bbox: [-25.75,17.25,-23.25,19.00]
-              crs: IAU:10000
+              crs: 4326
     keywords:
         default:
             keywords_en: [CTX,Image mosaic]
