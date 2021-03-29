@@ -2,7 +2,7 @@ mcf:
     version: 1.0
 
 metadata:
-    identifier:
+    identifier: 3f342f64-9348-11df-ba6a-0014c2c00eee
     language: en
     language_alternate: it
     charset: utf8
@@ -17,7 +17,7 @@ spatial:
 identification:
     language: eng;
     charset: utf8
-    title_en: CTX mosaic of Oxia Planum at Mars
+    title_en: CTX mosaic of Oxia Planum on Mars
     abstract_en: CTX image mosaic of Oxia Planum, prepared for the study of the
       landing site of ESA's ExoMars2022 rover Rosalind Franklin.
       CTX stereo DTM and orthorectified mosaic made using USGS ISIS and BAE Systems SocetSet.
@@ -49,6 +49,7 @@ identification:
     dates:
         creation: 2020-12-01
 
+    creator: The Creator
     extents:
         spatial:
             - bbox: [-25.75,17.25,-23.25,19.00]
@@ -59,10 +60,10 @@ identification:
     topiccategory:
         - planetaryScience
     fees: None
-    accessconstraints: otherRestrictions
+    accessconstraints: No constraints 
     rights_en: Copyright (c) Who produced the mosaic
-    url:
-    temporal_begin:
+    url: 
+    temporal_begin: 2020-03-20
     temporal_end: now
     status: onGoing
     maintenancefrequency: continual
@@ -86,7 +87,7 @@ contact:
 
 distribution:
     waf:
-        url: https://
+        url: https://www.esa.int
         type: WWW:LINK
         name: my waf
         description_en: description in English
