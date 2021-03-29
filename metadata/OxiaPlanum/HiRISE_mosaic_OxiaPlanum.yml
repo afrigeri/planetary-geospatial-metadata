@@ -27,7 +27,6 @@ identification:
         spatial: 
             - bbox: [-24.60,17.90,-23.96,18.50]
               crs: 4326
-
     keywords:
         default:
             keywords_en: [HiRISE,Image mosaic]
