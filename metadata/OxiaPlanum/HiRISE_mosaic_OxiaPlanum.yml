@@ -24,8 +24,8 @@ identification:
         creation: 2020-12-01
 
     extents:
-        spatial:
-            - bbox: [-141,42,-52,84]
+        spatial: 
+            - bbox: [-24.60,17.90,-23.96,18.50]
               crs: 4326
 
     keywords:

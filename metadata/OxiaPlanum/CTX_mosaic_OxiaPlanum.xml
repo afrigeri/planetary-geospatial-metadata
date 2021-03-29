@@ -15,10 +15,10 @@
   <gmd:contact>
     <gmd:CI_ResponsibleParty id="contact-pointOfContact">
       <gmd:individualName>
-        <gco:CharacterString>Matthieu Volat</gco:CharacterString>
+        <gco:CharacterString>Made by Peter Grindrod</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>University of Lyon</gco:CharacterString>
+        <gco:CharacterString>The Natural History Museum, London</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
         <gco:CharacterString>Research Scientist</gco:CharacterString>
@@ -34,16 +34,13 @@
           <gmd:address>
             <gmd:CI_Address>
               <gmd:city>
-                <gco:CharacterString>Lyon</gco:CharacterString>
+                <gco:CharacterString>London</gco:CharacterString>
               </gmd:city>
-              <gmd:administrativeArea>
-                <gco:CharacterString>Lyon</gco:CharacterString>
-              </gmd:administrativeArea>
               <gmd:postalCode>
                 <gco:CharacterString>None</gco:CharacterString>
               </gmd:postalCode>
               <gmd:country>
-                <gco:CharacterString>France</gco:CharacterString>
+                <gco:CharacterString>UK</gco:CharacterString>
               </gmd:country>
             </gmd:CI_Address>
           </gmd:address>
@@ -167,6 +164,7 @@
       </gmd:citation>
       <gmd:abstract>
         <gco:CharacterString>CTX image mosaic of Oxia Planum, prepared for the study of the landing site of ESA's ExoMars2022 rover Rosalind Franklin. CTX stereo DTM and orthorectified mosaic made using USGS ISIS and BAE Systems SocetSet. DTM = 20 m/px Orthoimage = 6 m/px CTX stereo pairs used J01_045167_1983 &amp; J03_045800_1983 F03_037070_1980 &amp; F03_037136_1977 J01_045101_1981 &amp; J02_045378_1981 F23_044811_1985 &amp; F23_044956_1984 F21_044178_1988 &amp; J05_046723_1985 J14_050138_1986 &amp; K05_055518_1986
+we can edit!
 CTX images courtesy of NASA/JPL/Malin Space Science Systems
 Made by Peter Grindrod at The Natural History Museum, London
 Georeferenceded to HRSC MC11 west mosaic tile HMC_11W24_nd5 http://hrscteam.dlr.de/HMC30/ and rectifed using the spline transformation.
@@ -227,7 +225,7 @@ Georeferencing and Contours by Peter Fawdon, The Open University, MiltonKeynes, 
                 <gml:Polygon gml:id="P001" srsName="IAU:10000" srsDimension="2">
                   <gml:exterior>
                     <gml:LinearRing>
-                      <gml:posList srsName="IAU:10000" srsDimension="2">-141 42 -141 84 -52 84 -52 42 -141 42</gml:posList>
+                      <gml:posList srsName="IAU:10000" srsDimension="2">-25.75 17.25 -25.75 19.0 -23.25 19.0 -23.25 17.25 -25.75 17.25</gml:posList>
                     </gml:LinearRing>
                   </gml:exterior>
                 </gml:Polygon>
@@ -245,10 +243,10 @@ Georeferencing and Contours by Peter Fawdon, The Open University, MiltonKeynes, 
           <gmd:distributorContact>
             <gmd:CI_ResponsibleParty id="contact-distributor">
               <gmd:individualName>
-                <gco:CharacterString>Matthieu Volat</gco:CharacterString>
+                <gco:CharacterString>Made by Peter Grindrod</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>University of Lyon</gco:CharacterString>
+                <gco:CharacterString>The Natural History Museum, London</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
                 <gco:CharacterString>Research Scientist</gco:CharacterString>
@@ -264,16 +262,13 @@ Georeferencing and Contours by Peter Fawdon, The Open University, MiltonKeynes, 
                   <gmd:address>
                     <gmd:CI_Address>
                       <gmd:city>
-                        <gco:CharacterString>Lyon</gco:CharacterString>
+                        <gco:CharacterString>London</gco:CharacterString>
                       </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>Lyon</gco:CharacterString>
-                      </gmd:administrativeArea>
                       <gmd:postalCode>
                         <gco:CharacterString>None</gco:CharacterString>
                       </gmd:postalCode>
                       <gmd:country>
-                        <gco:CharacterString>France</gco:CharacterString>
+                        <gco:CharacterString>UK</gco:CharacterString>
                       </gmd:country>
                     </gmd:CI_Address>
                   </gmd:address>

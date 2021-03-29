@@ -51,7 +51,7 @@ identification:
 
     extents:
         spatial:
-            - bbox: [-141,42,-52,84]
+            - bbox: [-25.75,17.25,-23.25,19.00]
               crs: IAU:10000
     keywords:
         default:
