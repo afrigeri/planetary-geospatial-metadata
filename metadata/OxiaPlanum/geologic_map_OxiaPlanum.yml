@@ -2,7 +2,7 @@ mcf:
     version: 1.0
 
 metadata:
-    identifier: 
+    identifier: ID_GEOMAP_V001
     language: en
     language_alternate: it
     charset: utf8
