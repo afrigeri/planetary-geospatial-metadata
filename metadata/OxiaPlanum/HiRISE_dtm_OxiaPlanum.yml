@@ -17,7 +17,7 @@ spatial:
 identification:
     language: eng;
     charset: utf8
-    title_en: HiRISE mosaic of Oxia Planum at Mars 
+    title_en: HiRISE DTM of Oxia Planum at Mars 
     abstract_en: This is the HiRISE mosaic of Oxia Planum, prepared for the study of the landing site of ESA's ExoMars rover Rosalind Franklin.
     
     dates:
@@ -30,7 +30,7 @@ identification:
 
     keywords:
         default:
-            keywords_en: [HiRISE,Image mosaic]
+            keywords_en: [HiRISE,Digital Terrain Model]
     topiccategory:
         - planetaryScience
     fees: None

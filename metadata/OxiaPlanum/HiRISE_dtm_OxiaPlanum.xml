@@ -151,7 +151,7 @@
       <gmd:citation>
         <gmd:CI_Citation>
           <gmd:title>
-            <gco:CharacterString>HiRISE mosaic of Oxia Planum at Mars</gco:CharacterString>
+            <gco:CharacterString>HiRISE DTM of Oxia Planum at Mars</gco:CharacterString>
           </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
@@ -184,7 +184,7 @@
             <gco:CharacterString>HiRISE</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>Image mosaic</gco:CharacterString>
+            <gco:CharacterString>Digital Terrain Model</gco:CharacterString>
           </gmd:keyword>
           <gmd:type>
             <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeSpace="ISOTC211/19115" codeListValue=""/>

@@ -15,10 +15,10 @@
   <gmd:contact>
     <gmd:CI_ResponsibleParty id="contact-pointOfContact">
       <gmd:individualName>
-        <gco:CharacterString>Alessandro Frigeri</gco:CharacterString>
+        <gco:CharacterString>Elliot Sefton-Nash</gco:CharacterString>
       </gmd:individualName>
       <gmd:organisationName>
-        <gco:CharacterString>IAPS INAD</gco:CharacterString>
+        <gco:CharacterString>ESA</gco:CharacterString>
       </gmd:organisationName>
       <gmd:positionName>
         <gco:CharacterString>Research Scientist</gco:CharacterString>
@@ -34,23 +34,17 @@
           <gmd:address>
             <gmd:CI_Address>
               <gmd:city>
-                <gco:CharacterString>Rome</gco:CharacterString>
+                <gco:CharacterString>Lyon</gco:CharacterString>
               </gmd:city>
-              <gmd:administrativeArea>
-                <gco:CharacterString>Rome</gco:CharacterString>
-              </gmd:administrativeArea>
               <gmd:postalCode>
-                <gco:CharacterString>91</gco:CharacterString>
+                <gco:CharacterString>None</gco:CharacterString>
               </gmd:postalCode>
-              <gmd:country>
-                <gco:CharacterString>Italy</gco:CharacterString>
-              </gmd:country>
             </gmd:CI_Address>
           </gmd:address>
           <gmd:onlineResource>
             <gmd:CI_OnlineResource>
               <gmd:linkage>
-                <gmd:URL>None</gmd:URL>
+                <gmd:URL>https://doi.datacite.org/dois/10.48326idoc.psup.marssi.hirise.oxia</gmd:URL>
               </gmd:linkage>
               <gmd:protocol>
                 <gco:CharacterString>WWW:LINK</gco:CharacterString>
@@ -137,7 +131,7 @@
             </gmd:CI_Citation>
           </gmd:authority>
           <gmd:code>
-            <gco:CharacterString>urn:ogc:def:crs:EPSG:IAU:10000</gco:CharacterString>
+            <gco:CharacterString>urn:ogc:def:crs:EPSG:4326</gco:CharacterString>
           </gmd:code>
           <gmd:version>
             <gco:CharacterString>6.18.3</gco:CharacterString>
@@ -150,9 +144,6 @@
     <gmd:MD_DataIdentification>
       <gmd:citation>
         <gmd:CI_Citation>
-          <gmd:title>
-            <gco:CharacterString>Morphostratigraphic mapping of Oxia, quad XX</gco:CharacterString>
-          </gmd:title>
           <gmd:date>
             <gmd:CI_Date>
               <gmd:date>
@@ -166,7 +157,7 @@
         </gmd:CI_Citation>
       </gmd:citation>
       <gmd:abstract>
-        <gco:CharacterString>Whithin this quad we have mapped two different terrain.  A dark terrain is evident in the north-west sector of the quadrangle while a brighter one occurs everywhere else.  The contact between the terrains is sharp.  From the topography the dark terrain seems to overlay the bright one.</gco:CharacterString>
+        <gco:CharacterString>This is the geologic map of Oxia Planum produced from the collaborative mapping effort during summer 2020.</gco:CharacterString>
       </gmd:abstract>
       <gmd:status>
         <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeSpace="ISOTC211/19115" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
@@ -181,19 +172,10 @@
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gco:CharacterString>OxiaPlanum</gco:CharacterString>
+            <gco:CharacterString>Geology</gco:CharacterString>
           </gmd:keyword>
           <gmd:keyword>
-            <gco:CharacterString>mapping</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>dark terrain</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>bright terrain</gco:CharacterString>
-          </gmd:keyword>
-          <gmd:keyword>
-            <gco:CharacterString>contact</gco:CharacterString>
+            <gco:CharacterString>ExoMars</gco:CharacterString>
           </gmd:keyword>
           <gmd:type>
             <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeSpace="ISOTC211/19115" codeListValue=""/>
@@ -203,7 +185,7 @@
       <gmd:resourceConstraints>
         <gmd:MD_LegalConstraints>
           <gmd:accessConstraints>
-            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeSpace="ISOTC211/19115" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeSpace="ISOTC211/19115" codeListValue="ESA RSOWG Mapping group">ESA RSOWG Mapping group</gmd:MD_RestrictionCode>
           </gmd:accessConstraints>
         </gmd:MD_LegalConstraints>
       </gmd:resourceConstraints>
@@ -222,23 +204,29 @@
       <gmd:extent>
         <gmd:EX_Extent>
           <gmd:geographicElement>
-            <gmd:EX_BoundingPolygon>
+            <gmd:EX_GeographicBoundingBox>
               <gmd:extentTypeCode>
                 <gco:Boolean>1</gco:Boolean>
               </gmd:extentTypeCode>
-              <gmd:polygon>
-                <gml:Polygon gml:id="P001" srsName="IAU:10000" srsDimension="2">
-                  <gml:exterior>
-                    <gml:LinearRing>
-                      <gml:posList srsName="IAU:10000" srsDimension="2">-141 42 -141 84 -52 84 -52 42 -141 42</gml:posList>
-                    </gml:LinearRing>
-                  </gml:exterior>
-                </gml:Polygon>
-              </gmd:polygon>
-            </gmd:EX_BoundingPolygon>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>-24.6</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-23.96</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>17.9</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>18.5</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
           </gmd:geographicElement>
         </gmd:EX_Extent>
       </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>https://doi.datacite.org/dois/10.48326idoc.psup.marssi.hirise.oxia</gco:CharacterString>
+      </gmd:supplementalInformation>
     </gmd:MD_DataIdentification>
   </gmd:identificationInfo>
   <gmd:distributionInfo>
@@ -248,10 +236,10 @@
           <gmd:distributorContact>
             <gmd:CI_ResponsibleParty id="contact-distributor">
               <gmd:individualName>
-                <gco:CharacterString>Alessandro Frigeri</gco:CharacterString>
+                <gco:CharacterString>Elliot Sefton-Nash</gco:CharacterString>
               </gmd:individualName>
               <gmd:organisationName>
-                <gco:CharacterString>IAPS INAD</gco:CharacterString>
+                <gco:CharacterString>ESA</gco:CharacterString>
               </gmd:organisationName>
               <gmd:positionName>
                 <gco:CharacterString>Research Scientist</gco:CharacterString>
@@ -267,23 +255,17 @@
                   <gmd:address>
                     <gmd:CI_Address>
                       <gmd:city>
-                        <gco:CharacterString>Rome</gco:CharacterString>
+                        <gco:CharacterString>Lyon</gco:CharacterString>
                       </gmd:city>
-                      <gmd:administrativeArea>
-                        <gco:CharacterString>Rome</gco:CharacterString>
-                      </gmd:administrativeArea>
                       <gmd:postalCode>
-                        <gco:CharacterString>91</gco:CharacterString>
+                        <gco:CharacterString>None</gco:CharacterString>
                       </gmd:postalCode>
-                      <gmd:country>
-                        <gco:CharacterString>Italy</gco:CharacterString>
-                      </gmd:country>
                     </gmd:CI_Address>
                   </gmd:address>
                   <gmd:onlineResource>
                     <gmd:CI_OnlineResource>
                       <gmd:linkage>
-                        <gmd:URL>None</gmd:URL>
+                        <gmd:URL>https://doi.datacite.org/dois/10.48326idoc.psup.marssi.hirise.oxia</gmd:URL>
                       </gmd:linkage>
                       <gmd:protocol>
                         <gco:CharacterString>WWW:LINK</gco:CharacterString>
